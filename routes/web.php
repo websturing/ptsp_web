@@ -25,6 +25,7 @@ Route::get("/acl", "aclControl@index");
 Route::post("/aclgetR", "aclControl@aclGet");
 
 Route::POST("/realisasi", "investasiControl@index");
+Route::POST("/master-gallery", "galleryControl@index");
 
 
 Route::get("/{any}", "appControl@index")->where("any", ".*");

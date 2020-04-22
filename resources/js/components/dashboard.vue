@@ -1,22 +1,22 @@
 <template>
     <div>
-        <section class="hero-banner magic-ball">
-            <div class="container">
-
-            <div class="row align-items-center text-center text-md-left">
-                <div class="col-md-6 col-lg-5 mb-5 mb-md-0">
-                <h1>pemberitahuan</h1>
-                <p>PENUTUPAN SEMENTARA LAYANAN TATAP MUKA PERIZINAN DAN NON PERIZINAN BERUSAHA MELALUI TATAP MUKA DI DINAS PENANAMAN MODAL DAN
-                    PELAYANAN TERPADU SATU PINTU TERPADU SATU PINTU PROVINSI KEPULAUAN RIAU
-                </p>
-                <a class="button button-hero mt-4" href="#">PERMOHONAN ONLINE</a>
-                </div>
-                <div class="col-md-6 col-lg-7 col-xl-6 offset-xl-1">
-                <img class="img-fluid" :src="url.images+'/corona.jpg'" width="80%" alt="">
-                </div>
-            </div>
-            </div>
-        </section>
+      <hooper style="height: 700px" :wheelControl="false">
+         <slide>
+        <div class="row align-items-center text-center text-md-left">
+          <div style="height:700px !important; width:100% !important">
+              <img :src="url.images+'/hero.jpg'" class="img-fluid" width="100%">
+          </div>
+        </div>
+        </slide>
+        <slide >
+        <div class="row align-items-center text-center text-md-left">
+          <div style="height:700px !important; width:100% !important">
+              <img :src="url.images+'/bg1.jpg'" class="img-fluid">
+          </div>
+        </div>
+        </slide>
+          <HooperPagination slot="hooper-addons"></HooperPagination>
+      </hooper>
   <!--================Hero Banner Area End =================-->
 
 
@@ -125,64 +125,7 @@
 
 
   <!--================Blog section Start =================-->
-  <section class="section-padding bg-gray">
-    <div class="container">
-      <div class="section-intro text-center pb-90px">
-        <h2>From our Blog</h2>
-        <p>Fowl have fruit moveth male they are that place you will lesser</p>
-      </div>
-
-      <div class="row">
-        <div class="col-md-6 col-lg-4 mb-4 mb-lg-0">
-          <div class="card-blog">
-            <img class="card-img rounded-0" src="img/blog/blog-1.png" alt="">
-            <div class="card-blog-body">
-              <a href="#">
-                <h4>Forest responds to consultation smoking in al fresco.</h4>
-              </a>
-              <ul class="card-blog-info">
-                <li><a href="#"><span class="align-middle"><i class="ti-notepad"></i></span>Jan 03, 2018</a></li>
-                <li><a href="#"><span class="align-middle"><i class="ti-comments-smiley"></i></span>03 Comments</a></li>
-              </ul>
-              <p>Varius metus morbi ferme libero vehic on porta malesuada ut interdu estmales torquent vehicula parturient </p>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-md-6 col-lg-4 mb-4 mb-lg-0">
-          <div class="card-blog">
-            <img class="card-img rounded-0" src="img/blog/blog-2.png" alt="">
-            <div class="card-blog-body">
-              <a href="#">
-                <h4>Forest responds to consultation smoking in al fresco.</h4>
-              </a>
-              <ul class="card-blog-info">
-                <li><a href="#"><span class="align-middle"><i class="ti-notepad"></i></span>Jan 03, 2018</a></li>
-                <li><a href="#"><span class="align-middle"><i class="ti-comments-smiley"></i></span>03 Comments</a></li>
-              </ul>
-              <p>Varius metus morbi ferme libero vehic on porta malesuada ut interdu estmales torquent vehicula parturient </p>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-md-6 col-lg-4 mb-4 mb-lg-0">
-          <div class="card-blog">
-            <img class="card-img rounded-0" src="img/blog/blog-3.png" alt="">
-            <div class="card-blog-body">
-              <a href="#">
-                <h4>Forest responds to consultation smoking in al fresco.</h4>
-              </a>
-              <ul class="card-blog-info">
-                <li><a href="#"><span class="align-middle"><i class="ti-notepad"></i></span>Jan 03, 2018</a></li>
-                <li><a href="#"><span class="align-middle"><i class="ti-comments-smiley"></i></span>03 Comments</a></li>
-              </ul>
-              <p>Varius metus morbi ferme libero vehic on porta malesuada ut interdu estmales torquent vehicula parturient </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
+  <Gallery></Gallery>
   <!--================Blog section End ================= -->
 
     </div>
@@ -190,6 +133,9 @@
 
 <script>
 import urlbase from '@/js/url';
+import { Hooper, Slide,  Pagination as HooperPagination } from 'hooper';
+import 'hooper/dist/hooper.css';
+import Gallery from '@/js/components/gallery/gallery'
 
 export default {
     data(){
@@ -203,6 +149,12 @@ export default {
         console.log('Component mounted.')
         this.$parent.$data.activeLink = 'dashboard';
         this.$parent.$data.activeName = 'Dashboard';
+    },
+    components: {
+      Hooper,
+      Slide,
+      HooperPagination,
+      Gallery
     },
     methods:{
     },
