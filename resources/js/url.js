@@ -4,7 +4,7 @@
 
 const urlAxios = "http://dpmptsp.kepriprov.go.id/api";
 const urlBase = "/";
-const urlWeb = "http://dpmptsp.kepriprov.go.id/";
+const urlWeb = "http://dpmptsp.kepriprov.go.id";
 
 export default {
     urlAxios: urlAxios,
