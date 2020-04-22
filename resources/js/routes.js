@@ -14,9 +14,16 @@ const router = new VueRouter({
     mode: 'history',
     base: urlBase.urlBase,
     hash: false,
-    routes: [{
+    routes: [
+        {
             path: '/dashboard',
             name: 'dashboard',
+            component: Dashboard,
+            meta: { disallowAuthed: true }
+        },
+        {
+            path: '/',
+            name: 'dashboard-home',
             component: Dashboard,
             meta: { disallowAuthed: true }
         },
