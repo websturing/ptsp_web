@@ -36,15 +36,15 @@
 
           <div class="collapse navbar-collapse offset" id="navbarSupportedContent">
             <ul class="nav navbar-nav menu_nav justify-content-end">
-              <li class="nav-item active"><a class="nav-link" href="index.html">Beranda</a></li> 
-              <li class="nav-item"><a class="nav-link" href="about.html">Profile</a></li> 
+              <li class="nav-item active"><a class="nav-link" href="{{url('/')}}">Beranda</a></li> 
+              <li class="nav-item"><a class="nav-link" href="{{url('/profile')}}">Profile</a></li> 
               <li class="nav-item submenu dropdown">
                 <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
                   aria-expanded="false">Layanan</a>
                 <ul class="dropdown-menu">
-                  <li class="nav-item"><a class="nav-link" href="amentities.html">Perizinan</a>                 
-                  <li class="nav-item"><a class="nav-link" href="amentities.html">Non Perizinan</a>                 
-                  <li class="nav-item"><a class="nav-link" href="amentities.html">Pengaduan</a>                 
+                  <li class="nav-item"><a class="nav-link" href="http://appkepri.com/sijempol/login">Perizinan</a>                 
+                  <li class="nav-item"><a class="nav-link" href="http://appkepri.com/sijempol/login">Non Perizinan</a>                 
+                  <li class="nav-item"><a class="nav-link" href="http://appkepri.com/sijempol/login">Pengaduan</a>                 
                 </ul>
 							</li>
 
@@ -57,7 +57,7 @@
                   <li class="nav-item"><a class="nav-link" href="blog-details.html">Pengawasan</a></li>
                 </ul>
               </li>
-              <li class="nav-item active"><a class="nav-link" href="{{url('investasi')}}">Data Investasi</a></li> 
+              <li class="nav-itemgit"><a class="nav-link" href="{{url('investasi')}}">Data Investasi</a></li> 
               <li class="nav-item"><a class="nav-link" href="contact.html">Hubungi Kami</a></li>
             </ul>
           </div> 
