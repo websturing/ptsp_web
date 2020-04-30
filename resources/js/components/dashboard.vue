@@ -25,20 +25,22 @@
       
 
           <div class="row">
-              <a href="http://appkepri.com/sijempol/login">
+              
               <div class="col-md-6 col-lg-4 mb-4 mb-lg-0">
-                <div class="service-card text-center">
-                  <div class="service-card-img">
-                    <img class="img-fluid" :src="url.images+'/perizinan.jpg'" height="300px" alt="">
+                
+                <a href="http://appkepri.com/sijempol/login">
+                  <div class="service-card text-center">
+                    <div class="service-card-img">
+                      <img class="img-fluid" :src="url.images+'/perizinan.jpg'" height="300px" alt="">
+                    </div>
+                    <div class="service-card-body">
+                      <h3>Perizinan Dan Non Perizinan</h3>
+                      <p>izin & non Izin dapat di ajukan melalui aplikasi Si-Jempol</p>
+                      <br/>
+                    </div>
                   </div>
-                  <div class="service-card-body">
-                    <h3>Perizinan Dan Non Perizinan</h3>
-                    <p>izin & non Izin dapat di ajukan melalui aplikasi Si-Jempol</p>
-                    <br/>
-                  </div>
-                </div>
+                </a>
               </div>
-              </a>
 
               <div class="col-md-6 col-lg-4 mb-4 mb-lg-0">
                 <div class="service-card text-center">
@@ -52,20 +54,22 @@
                   </div>
                 </div>
               </div>
-              <a href="{{url('investasi)}}"
+              
               <div class="col-md-6 col-lg-4 mb-4 mb-lg-0">
-                <div class="service-card text-center">
-                  <div class="service-card-img">
-                    <img class="img-fluid" :src="url.images+'/dataPtsp.jpg'" height="300" alt="">
+                
+                <a href="http://dpmptsp.kepriprov.go.id/investasi">
+                  <div class="service-card text-center">
+                    <div class="service-card-img">
+                      <img class="img-fluid" :src="url.images+'/dataPtsp.jpg'" height="300" alt="">
+                    </div>
+                    <div class="service-card-body">
+                      <h3>Data DPMPTSP</h3>
+                      <p>Rekapitulasi Data Perizinan & Nonperizinan</p>
+                      <br/><br/>
+                    </div>
                   </div>
-                  <div class="service-card-body">
-                    <h3>Data DPMPTSP</h3>
-                    <p>Rekapitulasi Data Perizinan & Nonperizinan</p>
-                    <br/><br/>
-                  </div>
-                </div>
+                  </a>
               </div>
-              </a>
           </div>
         </div>
   </section>
