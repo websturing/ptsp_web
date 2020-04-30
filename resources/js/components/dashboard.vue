@@ -1,12 +1,14 @@
 <template>
     <div>
-      <hooper style="height: 700px" :wheelControl="false">
+      <hooper style="height: 900px" :wheelControl="false">
         <slide >
-        <div class="row align-items-center text-center text-md-left">
-          <div style="height:700px !important; width:100% !important">
-              <img :src="url.images+'/bg1.jpg'" class="img-fluid">
-          </div>
-        </div>
+            <img :src="url.images+'/bg1.jpg'" class="img-fluid">
+            <div class="content-text">
+              <H6 style="color:white">SELAMAT DATANG</H6>
+              <div class="judul">DINAS PENANAMAN MODAL DAN PELAYANAN TERPADU SATU PINTU PROVINSI KEPULAUAN RIAU</div>
+              <p>Nomor Pengaduan : (+62) 811-7779-727</p>
+              <p>Email : pengaduan@dpmptsp.kepriprov.go.id</p>
+            </div>
         </slide>
           <HooperPagination slot="hooper-addons"></HooperPagination>
       </hooper>
@@ -153,3 +155,27 @@ export default {
     },
 }
 </script>
+<style scoped>
+.content-text{
+  border-top: 3px solid #003679;
+  position: absolute;
+  z-index: 999 !important;
+  margin: -700px 0px 0px 150px;
+  color: black !important;
+  padding: 20px;
+  width: 50%;
+  opacity: 0.8;
+  background-color: black;
+}
+
+.content-text .judul {
+  font-size: 24px;
+  color: white;
+  font-weight: 600;
+}
+
+.content-text p {
+   color: white;
+   margin: 3px;
+}
+</style>

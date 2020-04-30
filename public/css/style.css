@@ -224,10 +224,11 @@ h3,
 }
 
 .header_area .navbar {
-    background: transparent;
+    background: white;
     border: 0px;
     border-radius: 0px;
     width: 100%;
+    border-bottom: 4px solid #003679;
     padding-top: 0;
     padding-bottom: 0;
 }
