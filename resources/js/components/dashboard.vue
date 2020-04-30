@@ -25,6 +25,7 @@
       
 
           <div class="row">
+              <a href="http://appkepri.com/sijempol/login">
               <div class="col-md-6 col-lg-4 mb-4 mb-lg-0">
                 <div class="service-card text-center">
                   <div class="service-card-img">
@@ -37,6 +38,7 @@
                   </div>
                 </div>
               </div>
+              </a>
 
               <div class="col-md-6 col-lg-4 mb-4 mb-lg-0">
                 <div class="service-card text-center">
@@ -50,7 +52,7 @@
                   </div>
                 </div>
               </div>
-
+              <a href="{{url('investasi)}}"
               <div class="col-md-6 col-lg-4 mb-4 mb-lg-0">
                 <div class="service-card text-center">
                   <div class="service-card-img">
@@ -63,6 +65,7 @@
                   </div>
                 </div>
               </div>
+              </a>
           </div>
         </div>
   </section>
