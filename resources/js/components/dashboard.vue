@@ -1,13 +1,6 @@
 <template>
     <div>
       <hooper style="height: 700px" :wheelControl="false">
-         <slide>
-        <div class="row align-items-center text-center text-md-left">
-          <div style="height:700px !important; width:100% !important">
-              <img :src="url.images+'/hero.jpg'" class="img-fluid" width="100%">
-          </div>
-        </div>
-        </slide>
         <slide >
         <div class="row align-items-center text-center text-md-left">
           <div style="height:700px !important; width:100% !important">
