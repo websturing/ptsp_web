@@ -36,15 +36,15 @@
 
           <div class="collapse navbar-collapse offset" id="navbarSupportedContent">
             <ul class="nav navbar-nav menu_nav justify-content-end">
-              <li class="nav-item active"><a class="nav-link" href="index.html">Beranda</a></li> 
-              <li class="nav-item"><a class="nav-link" href="about.html">Profile</a></li> 
+              <li class="nav-item active"><a class="nav-link" href="<?php echo e(url('/')); ?>">Beranda</a></li> 
+              <li class="nav-item"><a class="nav-link" href="<?php echo e(url('/profile')); ?>">Profile</a></li> 
               <li class="nav-item submenu dropdown">
                 <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
                   aria-expanded="false">Layanan</a>
                 <ul class="dropdown-menu">
-                  <li class="nav-item"><a class="nav-link" href="amentities.html">Perizinan</a>                 
-                  <li class="nav-item"><a class="nav-link" href="amentities.html">Non Perizinan</a>                 
-                  <li class="nav-item"><a class="nav-link" href="amentities.html">Pengaduan</a>                 
+                  <li class="nav-item"><a class="nav-link" href="http://appkepri.com/sijempol/login">Perizinan</a>                 
+                  <li class="nav-item"><a class="nav-link" href="http://appkepri.com/sijempol/login">Non Perizinan</a>                 
+                  <li class="nav-item"><a class="nav-link" href="http://appkepri.com/sijempol/login">Pengaduan</a>                 
                 </ul>
 							</li>
 
@@ -57,7 +57,7 @@
                   <li class="nav-item"><a class="nav-link" href="blog-details.html">Pengawasan</a></li>
                 </ul>
               </li>
-              <li class="nav-item active"><a class="nav-link" href="<?php echo e(url('investasi')); ?>">Data Investasi</a></li> 
+              <li class="nav-item"><a class="nav-link" href="<?php echo e(url('investasi')); ?>">Data Investasi</a></li> 
               <li class="nav-item"><a class="nav-link" href="contact.html">Hubungi Kami</a></li>
             </ul>
           </div> 
@@ -73,14 +73,14 @@
   <footer class="footer-area">
     <div class="container">
       <div class="row">
-        <div class="col-lg-3  col-md-6 col-sm-6">
+        <div class="col-lg-4  col-md-4 col-sm-4">
           <div class="single-footer-widget">
             <h6>DPMPTSP</h6>
             <p>Gedung Wanita Raja Sahila Lt. 2 Jalan Sultan Masyur Syah - Pulau Dompak Tanjungpinang</p>
           </div>
         </div>	
         
-        <div class="col-lg-6  col-md-6 col-sm-6">
+        <div class="col-lg-5  col-md-5 col-sm-5">
           <div class="single-footer-widget mail-chimp">
             <h6 class="mb-20">Kerja Sama</h6>
             <ul class="instafeed d-flex flex-wrap">
@@ -94,7 +94,12 @@
               <li><img src="<?php echo e(url('public/img/kerjasama/oss.png')); ?>" class="img-fluid" alt=""></li>
             </ul>
           </div>
-        </div>		
+        </div>
+        <div class="col-lg-3  col-md-3 col-sm-3">		
+          <h6 class="mb-20">Statistik Pengunjung</h6>
+        <a href='https://www.symptoma.es/'>Symptoma.es</a> <script type='text/javascript' src='https://www.freevisitorcounters.com/auth.php?id=1295538d380cfb573b3f13a2d143ba62d84e3e75'></script>
+        <script type="text/javascript" src="https://www.freevisitorcounters.com/en/home/counter/681328/t/0"></script>
+        </div>
       </div>
 
       <div class="footer-bottom">
