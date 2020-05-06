@@ -2,7 +2,7 @@
 <div>
    <section class="hero-banner">
       <div class="container">
-        <div class="row">
+        <!-- <div class="row">
           <div class="col-md-12">
             <el-tabs v-model="activeName">
               <el-tab-pane label="PENANAMAN MODAL ASING (PMA)" name="first">
@@ -97,7 +97,8 @@
               </el-tab-pane>
             </el-tabs>
           </div>
-       </div>
+       </div> -->
+       <h1>Under Maintence, cooming soon</h1>
       </div>
       <br/><br/><br/>
     </section>
