@@ -7,7 +7,8 @@
               <H6 style="color:white">SELAMAT DATANG</H6>
               <div class="judul">DINAS PENANAMAN MODAL DAN PELAYANAN TERPADU SATU PINTU PROVINSI KEPULAUAN RIAU</div>
               <p>Nomor Pengaduan : (+62) 811-7779-727</p>
-              <p>Email : pengaduan@dpmptsp.kepriprov.go.id</p>
+              <p>Email : dpmptspkepri20@gmail.com</p>
+              <p>Email Pengaduan : pengaduan@dpmptsp.kepriprov.go.id</p>
             </div>
         </slide>
           <HooperPagination slot="hooper-addons"></HooperPagination>
